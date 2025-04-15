@@ -1,19 +1,19 @@
 ---
-// index.astro - Página de inicio
+// index.astro - Página de inicio (actualizada con nueva paleta de colores)
 import MainLayout from '../layouts/MainLayout.astro';
 ---
 
 <MainLayout title="Inicio">
   <!-- Hero Section -->
-  <section class="relative bg-blue-700 text-white">
-    <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-700 opacity-90"></div>
+  <section class="relative bg-blue-bayoux text-white">
+    <div class="absolute inset-0 bg-gradient-to-r from-cocoa-brown to-blue-bayoux opacity-90"></div>
     <div class="relative container mx-auto px-4 py-24 flex flex-col items-center text-center">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">Palabra De Vida Dallas</h1>
       <p class="text-xl md:text-2xl mb-8">En Palabra De Vida Dallas Somos Una Gran Familia</p>
       <p class="text-lg max-w-3xl mb-8">En Palabra de Vida Dallas, Texas, dedicada a fortalecer la fe y la unidad familiar. Ofrecemos un espacio de encuentro con Dios y servicio a la comunidad. Te invitamos a ser parte de esta familia de fe y a vivir el Evangelio con alegría.</p>
       <div class="flex flex-col sm:flex-row gap-4">
-        <a href="/servicios" class="bg-white text-blue-700 hover:bg-blue-100 font-semibold py-3 px-6 rounded-lg transition">Horarios de Servicio</a>
-        <a href="/contacto" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition">Contáctanos</a>
+        <a href="/servicios" class="bg-white text-blue-bayoux hover:bg-cameo hover:text-cocoa-brown font-semibold py-3 px-6 rounded-lg transition">Horarios de Servicio</a>
+        <a href="/contacto" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-bayoux text-white font-semibold py-3 px-6 rounded-lg transition">Contáctanos</a>
       </div>
     </div>
   </section>
@@ -22,31 +22,31 @@ import MainLayout from '../layouts/MainLayout.astro';
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-2">Nuestros Servicios</h2>
-        <p class="text-gray-600">Te invitamos a ser parte de nuestras reuniones</p>
+        <h2 class="text-3xl font-bold mb-2 text-blue-bayoux">Nuestros Servicios</h2>
+        <p class="text-neutral">Te invitamos a ser parte de nuestras reuniones</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         <div class="bg-white p-8 rounded-lg shadow-md text-center">
-          <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+          <div class="bg-nepal bg-opacity-20 text-nepal rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-2">Domingos</h3>
-          <p class="text-gray-600 mb-4">Celebramos juntos cada domingo a las 10:30 AM</p>
-          <a href="/servicios" class="text-blue-600 hover:text-blue-800 font-medium">Más información →</a>
+          <h3 class="text-xl font-semibold mb-2 text-blue-bayoux">Domingos</h3>
+          <p class="text-neutral mb-4">Celebramos juntos cada domingo a las 10:30 AM</p>
+          <a href="/servicios" class="text-blue-bayoux hover:text-medium-carmine font-medium">Más información →</a>
         </div>
         
         <div class="bg-white p-8 rounded-lg shadow-md text-center">
-          <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+          <div class="bg-nepal bg-opacity-20 text-nepal rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </div>
-          <h3 class="text-xl font-semibold mb-2">Miércoles</h3>
-          <p class="text-gray-600 mb-4">Servicio de mitad de semana a las 7:00 PM</p>
-          <a href="/servicios" class="text-blue-600 hover:text-blue-800 font-medium">Más información →</a>
+          <h3 class="text-xl font-semibold mb-2 text-blue-bayoux">Miércoles</h3>
+          <p class="text-neutral mb-4">Servicio de mitad de semana a las 7:00 PM</p>
+          <a href="/servicios" class="text-blue-bayoux hover:text-medium-carmine font-medium">Más información →</a>
         </div>
       </div>
     </div>
@@ -56,28 +56,28 @@ import MainLayout from '../layouts/MainLayout.astro';
   <section class="py-16 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-2">Próximos Eventos</h2>
-        <p class="text-gray-600">No te pierdas nuestras actividades especiales</p>
+        <h2 class="text-3xl font-bold mb-2 text-blue-bayoux">Próximos Eventos</h2>
+        <p class="text-neutral">No te pierdas nuestras actividades especiales</p>
       </div>
       
-      <div class="bg-blue-50 rounded-lg p-6 md:p-8 max-w-3xl mx-auto shadow-lg border-l-4 border-blue-500">
+      <div class="bg-tower-gray bg-opacity-20 rounded-lg p-6 md:p-8 max-w-3xl mx-auto shadow-lg border-l-4 border-medium-carmine">
         <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
-          <div class="bg-blue-600 text-white rounded-lg p-4 text-center min-w-32">
+          <div class="bg-medium-carmine text-white rounded-lg p-4 text-center min-w-32">
             <p class="text-sm uppercase">Abril</p>
             <p class="text-3xl font-bold">2-4</p>
             <p class="text-sm">2025</p>
           </div>
           
           <div>
-            <h3 class="text-xl font-bold mb-2">Noches en su Presencia</h3>
-            <p class="text-gray-600 mb-4">Únete a nosotros para tres noches especiales de adoración y encuentro con Dios.</p>
-            <div class="flex items-center text-gray-500 mb-2">
+            <h3 class="text-xl font-bold mb-2 text-blue-bayoux">Noches en su Presencia</h3>
+            <p class="text-neutral mb-4">Únete a nosotros para tres noches especiales de adoración y encuentro con Dios.</p>
+            <div class="flex items-center text-neutral mb-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>7:30 PM</span>
             </div>
-            <div class="flex items-center text-gray-500">
+            <div class="flex items-center text-neutral">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -94,26 +94,26 @@ import MainLayout from '../layouts/MainLayout.astro';
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold mb-2">Nuestros Ministerios</h2>
-        <p class="text-gray-600">Grupos y ministerios para todas las edades</p>
+        <h2 class="text-3xl font-bold mb-2 text-blue-bayoux">Nuestros Ministerios</h2>
+        <p class="text-neutral">Grupos y ministerios para todas las edades</p>
       </div>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <div class="h-48 bg-blue-600"></div>
+          <div class="h-48 bg-nepal"></div>
           <div class="p-6">
-            <h3 class="text-xl font-bold mb-2">TC2JC Youth</h3>
-            <p class="text-gray-600 mb-4">Ministerio juvenil dedicado a formar líderes con pasión por Cristo.</p>
-            <a href="/ministerios" class="text-blue-600 hover:text-blue-800 font-medium">Conoce más →</a>
+            <h3 class="text-xl font-bold mb-2 text-blue-bayoux">TC2JC Youth</h3>
+            <p class="text-neutral mb-4">Ministerio juvenil dedicado a formar líderes con pasión por Cristo.</p>
+            <a href="/ministerios" class="text-blue-bayoux hover:text-medium-carmine font-medium">Conoce más →</a>
           </div>
         </div>
         
         <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <div class="h-48 bg-green-600"></div>
+          <div class="h-48 bg-juniper"></div>
           <div class="p-6">
-            <h3 class="text-xl font-bold mb-2">PDVKIDS</h3>
-            <p class="text-gray-600 mb-4">Ministerio infantil donde los niños aprenden de Dios de manera divertida.</p>
-            <a href="/ministerios" class="text-blue-600 hover:text-blue-800 font-medium">Conoce más →</a>
+            <h3 class="text-xl font-bold mb-2 text-blue-bayoux">PDVKIDS</h3>
+            <p class="text-neutral mb-4">Ministerio infantil donde los niños aprenden de Dios de manera divertida.</p>
+            <a href="/ministerios" class="text-blue-bayoux hover:text-medium-carmine font-medium">Conoce más →</a>
           </div>
         </div>
       </div>
@@ -121,11 +121,11 @@ import MainLayout from '../layouts/MainLayout.astro';
   </section>
   
   <!-- Llamado a la acción -->
-  <section class="py-16 bg-blue-700 text-white">
+  <section class="py-16 bg-blue-bayoux text-white">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-4">¡Te invitamos a ser parte de nuestra familia!</h2>
       <p class="text-xl mb-8 max-w-3xl mx-auto">En Palabra De Vida Dallas te esperamos con los brazos abiertos. Ven y experimenta el amor de Dios en comunidad.</p>
-      <a href="/contacto" class="bg-white text-blue-700 hover:bg-blue-100 font-semibold py-3 px-8 rounded-lg inline-block transition">Contáctanos hoy</a>
+      <a href="/contacto" class="bg-white text-blue-bayoux hover:bg-cameo hover:text-cocoa-brown font-semibold py-3 px-8 rounded-lg inline-block transition">Contáctanos hoy</a>
     </div>
   </section>
 </MainLayout>
