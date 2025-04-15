@@ -1,0 +1,311 @@
+---
+// galeria.astro - Página de Galería
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Galería">
+  <!-- Hero Section -->
+  <section class="relative bg-blue-bayoux text-white">
+    <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-700 opacity-90"></div>
+    <div class="relative container mx-auto px-4 py-20 md:py-24">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-center">Galería</h1>
+      <p class="text-xl max-w-3xl mx-auto text-center">Momentos especiales de nuestra comunidad</p>
+    </div>
+  </section>
+
+  <!-- Filtros de Galería -->
+  <section class="py-8 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-wrap justify-center gap-4">
+          <button class="bg-medium-carmine text-white px-4 py-2 rounded-lg font-medium">Todos</button>
+          <button class="bg-gray-200 hover:bg-gray-300 text-neutral px-4 py-2 rounded-lg font-medium transition">Servicios</button>
+          <button class="bg-gray-200 hover:bg-gray-300 text-neutral px-4 py-2 rounded-lg font-medium transition">Eventos Especiales</button>
+          <button class="bg-gray-200 hover:bg-gray-300 text-neutral px-4 py-2 rounded-lg font-medium transition">Jóvenes</button>
+          <button class="bg-gray-200 hover:bg-gray-300 text-neutral px-4 py-2 rounded-lg font-medium transition">Niños</button>
+          <button class="bg-gray-200 hover:bg-gray-300 text-neutral px-4 py-2 rounded-lg font-medium transition">Retiros</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería Principal -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <!-- 2025 -->
+        <div class="mb-16">
+          <h2 class="text-3xl font-bold mb-8 pb-2 border-b border-gray-200">2025</h2>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Imagen 1 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Noche de Adoración</h3>
+                <p class="text-neutral text-sm">Marzo 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 2 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Retiro de Líderes</h3>
+                <p class="text-neutral text-sm">Febrero 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 3 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Conferencia "Avivamiento"</h3>
+                <p class="text-neutral text-sm">Enero 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 4 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Actividad Juvenil</h3>
+                <p class="text-neutral text-sm">Enero 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 5 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Domingo de Celebración</h3>
+                <p class="text-neutral text-sm">Marzo 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 6 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Servicio Especial</h3>
+                <p class="text-neutral text-sm">Febrero 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 7 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Actividad PDVKIDS</h3>
+                <p class="text-neutral text-sm">Marzo 2025</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 8 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Bautismos</h3>
+                <p class="text-neutral text-sm">Enero 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 2024 -->
+        <div class="mb-16">
+          <h2 class="text-3xl font-bold mb-8 pb-2 border-b border-gray-200">2024</h2>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Imagen 1 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Navidad</h3>
+                <p class="text-neutral text-sm">Diciembre 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 2 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Acción de Gracias</h3>
+                <p class="text-neutral text-sm">Noviembre 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 3 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Retiro Juvenil</h3>
+                <p class="text-neutral text-sm">Octubre 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 4 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Campaña Evangelística</h3>
+                <p class="text-neutral text-sm">Septiembre 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 5 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Actividad Familiar</h3>
+                <p class="text-neutral text-sm">Agosto 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 6 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Escuela Bíblica de Verano</h3>
+                <p class="text-neutral text-sm">Julio 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 7 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Cena de Damas</h3>
+                <p class="text-neutral text-sm">Mayo 2024</p>
+              </div>
+            </div>
+            
+            <!-- Imagen 8 -->
+            <div class="bg-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition">
+              <div class="aspect-w-4 aspect-h-3 bg-gray-300">
+                <!-- Aquí irá la imagen -->
+              </div>
+              <div class="p-4">
+                <h3 class="font-semibold">Desayuno de Hombres</h3>
+                <p class="text-neutral text-sm">Abril 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Botón de Carga Más -->
+        <div class="text-center mt-10">
+          <button class="bg-medium-carmine hover:bg-blue-bayoux text-white font-semibold py-3 px-8 rounded-lg transition">Cargar Más</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Videos Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center">Videos Destacados</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Video 1 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="aspect-w-16 aspect-h-9 bg-gray-800">
+              <!-- Aquí irá el iframe de YouTube -->
+              <div class="flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold mb-1">Resumen de Retiro de Jóvenes</h3>
+              <p class="text-neutral text-sm">Octubre 2024</p>
+            </div>
+          </div>
+          
+          <!-- Video 2 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="aspect-w-16 aspect-h-9 bg-gray-800">
+              <!-- Aquí irá el iframe de YouTube -->
+              <div class="flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold mb-1">Testimonios de Miembros</h3>
+              <p class="text-neutral text-sm">Septiembre 2024</p>
+            </div>
+          </div>
+          
+          <!-- Video 3 -->
+          <div class="bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="aspect-w-16 aspect-h-9 bg-gray-800">
+              <!-- Aquí irá el iframe de YouTube -->
+              <div class="flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold mb-1">Escuela Bíblica de Verano 2024</h3>
+              <p class="text-neutral text-sm">Julio 2024</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-10 text-center">
+          <a href="https://www.youtube.com/@pdvdallas" target="_blank" rel="noopener noreferrer" class="text-nepal hover:text-medium-carmine font-medium">Ver más videos en nuestro canal de YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Llamado a la acción -->
+  <section class="py-16 bg-blue-bayoux text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">¡Sé parte de nuestros momentos!</h2>
+      <p class="text-xl mb-8 max-w-3xl mx-auto">Te invitamos a formar parte de nuestra comunidad y crear juntos nuevos momentos que quedaran plasmados en nuestra historia.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/servicios" class="bg-white text-blue-bayoux hover:bg-nepal bg-opacity-20 font-semibold py-3 px-6 rounded-lg transition">Nuestros Servicios</a>
+        <a href="/contacto" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-bayoux text-white font-semibold py-3 px-6 rounded-lg transition">Contáctanos</a>
+      </div>
+    </div>
+  </section>
+</MainLayout>
